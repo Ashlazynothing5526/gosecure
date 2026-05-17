@@ -1,0 +1,56 @@
+name: gosecure
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^8.1.0
+  carousel_slider: ^5.1.2
+  webview_flutter: ^4.13.1
+  flutter_phone_direct_caller: ^2.2.1
+  url_launcher: ^6.3.2
+  fluttertoast: ^9.0.0
+  firebase_core: ^4.9.0
+  firebase_auth: ^6.5.1
+  cloud_firestore: ^6.4.1
+  shared_preferences: ^2.5.5
+  permission_handler: ^12.0.1
+  flutter_contacts: ^1.1.9+2
+  sqflite: ^2.4.2+1
+  sms_sender_background: ^1.0.7
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  image_picker: ^1.2.2
+  uuid: ^4.5.3
+  firebase_storage: ^13.4.1
+  cached_network_image: ^3.4.1
+  shake: ^3.0.0
+  flutter_background_service: ^5.1.0
+  flutter_background_service_android: ^6.3.1
+  flutter_background_service_ios: ^5.0.3
+  flutter_local_notifications: ^21.0.0
+  vibration: ^3.1.8
+  another_telephony: ^0.4.1
+  flutter_launcher_icons: ^0.14.4
+  package_info_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo.png"
